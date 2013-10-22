@@ -1,0 +1,67 @@
+Greater than","GREATER_THAN_VALUE","Determine if parameter is greater than some value","1:0","Value
+
+Greater than entity","GREATER_THAN_ENTITY","Determine if parameter is greater than a market entity","1:-1","ENTITY
+
+Greater or equals","GREATER_OR_EQUALS_VALUE","Determine if parameter is greater or equals some value","1:0","Value
+
+Greater or equals entity","GREATER_OR_EQUALS_ENTITY","Determine if parameter is greater or equals a market entity","1:-1","ENTITY
+
+Greater than n-day average","GREATER_THAN_AVG","Determine if entity is [1] times greater than its [2]-day average","2:0","Times greater:Average of how many days","2:10
+
+Equals value","EQUALS_VALUE","Determine if parameter equals to some value","1:-1","Value
+
+Equals entity","EQUALS_ENTITY","Determine if entity equals some other entity","1:-1","ENTITY
+
+Less than","LESS_THAN_VALUE","Determine if parameter is smaller than some value","1:0","Value
+
+Less than","LESS_THAN_ENTITY","Determine if parameter is smaller than some entity","1:-1","ENTITY
+
+Less or equal entity","LESS_OR_EQUALS_ENTITY","Determine if parameter is smaller or equal to some entity","1:-1","ENTITY
+
+Less or equal","LESS_OR_EQUALS_VALUE","Determine if parameter is smaller or equal to some value","1:0","Value
+
+Stagnated","STAGNANT","Determine if the parameter stagnates for [1] days, up until [2] days back from today within [3] deviation","3:0","Stagnant for how many days:Up until how many days back:Max error %","20:0:10
+
+Follows entity","FOLLOWS_ENTITY","Determine if follows entity for [1] days, up until [2] days back from today within [3] deviation","4:1","ENTITY:Stagnant for how many days:Up until how many days back:Max error %","0:20:0:10
+
+Stayed below","STAYED_BELOW_VALUE","Determine if the parameter stayed below [1] value, for [2] days in a row, up until [3] days back from today","3:1","Below value:For how many days:Up until how many days back","30:20:0
+
+Stayed below entity","STAYED_BELOW_ENTITY","Determine if the parameter stayed below entity, for [1] days in a row","2:0","ENTITY:For how many days","0:20
+
+Stayed above value","STAYED_ABOVE_VALUE","Determine if the parameter stayed above [1] value, for [2] days in a row","2:1","Above value:For how many days","30:20
+
+Stayed above entity","STAYED_ABOVE_ENTITY","Determine if the parameter stayed above some market entity, for [1] days in a row","2:0","ENTITY:For how many days","0:20
+
+Between values","BETWEEN_VALUES","Determine if the parameter is between two values","2:-1","Between value1:and Value2
+
+Is increasing","INCREASING","Determine if the parameter is increasing","0:-1
+
+Is decreasing","DECREASING","Determine if the parameter is decreasing","0:-1
+
+% change from last transaction","PERC_CNG_FROM_LAST_BULLET","Determine if the change of the parameter from last bullet is more [1] value","1:0","Value","10
+
+% change from opening position","PERC_CNG_FROM_START_TRADE","Determine if the change of the parameter from the beginning of trade is more than some value","1:0","Value","15
+
+Jumped","JUMPS","Determine if the parameter has a jump of [1] magnitude over [2] days","2:0","Magnitude:During how many days","10:5
+
+Dropped","DROPS","Determine if the parameter has a drop of [1] magnitude over [2] days","2:0","Magnitude:During how many days","10:5
+
+Crossed 0-value going up","CROSSOVER_UP_VALUE","Determine if there was a crossover of 0-value going up. Also check [1] days back for stable below 0 state, and wait for [2] days to make sure the signal was clear","2:-1","Check how many days back:Wait how many days to confirm","0:0
+
+Crossed 0-value going up","CROSSOVER_UP_ENTITY","Determine if there was a crossover of other entity going up. Also check [1] days back for stable below 0 state, and wait for [2] days to make sure the signal was clear","3:-1","ENTITY:Check how many days back:Wait how many days to confirm","0:0:0
+
+Crossed 0-value going down","CROSSOVER_DOWN_VALUE","Determine if there was a crossover of 0-value going down. Also check [1] days back for stable above 0 state, and wait for [2] days to make sure the signal was clear","2:-1","Check how many days back:Wait how many days to confirm","0:0
+
+Crossed 0-value going down","CROSSOVER_DOWN_ENTITY","Determine if there was a crossover of other entity going down. Also check [1] days back for stable above 0 state, and wait for [2] days to make sure the signal was clear","3:-1","ENTITY:Check how many days back:Wait how many days to confirm","0:0:0
+
+Head-and-Shoulders","IS_HEAD_AND_SHOULDERS","Determine if head and shoulder pattern formed ending on the current day","0:-1","0
+
+Head-and-Shoulders (advanced)","IS_HEAD_AND_SHOULDERS_ADV","Determine if head and shoulder pattern formed ending on the current day","1:-1","Advanced check (check volume, EMA, backtest)","0
+
+Formed pattern Double Tops","IS_DOUBLE_TOPS","Determine if double tops pattern formed ending on the current day","0:-1
+
+Formed pattern Channel","CHANNEL","Determine if the chart has a channel pattern of specified width","2:-1","Beginning width of channel %:Ending width of channel %","30:20
+
+Made a new high","MADE_NEW_HIGH","Determine if entity made a new high in the specified number of days","1:-1","Number of days","200
+
+Made a new low","MADE_NEW_LOW","Determine if entity made a new low in the specified number of days","1:-1","Number of days","200

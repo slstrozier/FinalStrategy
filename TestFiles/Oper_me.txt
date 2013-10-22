@@ -1,0 +1,24 @@
+TRACK","Do nothing, only record behavior","0
+IS_PROFITABLE","fake","0
+GREATER","Determine if parameter is greater than some value","1","Value
+GREATER_OR_EQUALS","Determine if parameter is greater or equals some value","1","Value
+GREATER_THAN_AVG","Determine if entity is [0] times greater than its [1]-day average","2","Times greater","Average of how many days
+EQUALS","Determine if parameter equals to some value","1","Value
+LESS","Determine if parameter is smaller than some value","1","Value
+LESS_OR_EQUALS","Determine if parameter is smaller or equal to some value","1","Value
+STAGNANT","Determine if the parameter stagnates for [1] days, up until [2] days back from today, at [3=null(present value)] value,  within [4] deviation","4","Stagnant for how many days","Up until how many days back","At value (default is present)","Max error %
+STAYED_BELOW","Determine if the parameter stayed below [1] value, for [2] days in a row, up until [3] days back from today","3","Below value","For how many days","Up until how many days back
+STAYED_ABOVE","Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","3","Above value","For how many days","Up until how many days back
+BETWEEN_VALUES","Determine if the parameter is between two values","2","Between value1","and Value2
+INCREASING","Determine if the parameter is increasing","0
+DECREASING","Determine if the parameter is decreasing","0
+PERC_CNG_FROM_LAST_BULLET","Determine if the change of the parameter from last bullet is more than some value","1","Value
+PERC_CNG_FROM_START_TRADE","Determine if the change of the parameter from the beginning of trade is more than some value","1","Value
+JUMPS","Determine if the parameter has a jump of [1] magnitude over [2] days","2","Magnitude","During how many days
+DROPS","Determine if the parameter has a drop of [1] magnitude over [2] days","2","Magnitude","During how many days
+SLOPE","","0
+CROSSOVER_UP","Determine if there was a crossover of 0-value going up. Also check [1] days back for stable below 0 state, and wait for [2] days to make sure the signal was clear","2","Check how many days back","Wait how many days to confirm
+CROSSOVER_DOWN","Determine if there was a crossover of 0-value going down. Also check [1] days back for stable above 0 state, and wait for [2] days to make sure the signal was clear","2","Check how many days back","Wait how many days to confirm
+IS_HEAD_AND_SHOULDERS","Determine if head and shoulder pattern formed ending on the current day","1","Advanced check (check volume, EMA, backtest)
+IS_DOUBLE_TOPS","Determine if double tops pattern formed ending on the current day","0
+CHANNEL","Determine if the chart has a channel pattern of specified width","2","Beginning width of channel","Ending width of channel

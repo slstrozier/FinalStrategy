@@ -1,0 +1,23 @@
+NH","New highs refers to the number of stocks recording their highest price level in a specified period of time","1","Period Of Time","true","New Highs On 
+NL","New lows refers to the number of stocks recording their lowest price level in a specified period of time","1","Period Of Time","true","New Lows On 
+GU","Percentage of stocks making an up gap greater than specified margin. An up gap forms when a security opens above the previous period's high, remains above the previous high for the entire period and closes above it. Up gaps can form on daily, weekly or monthly charts and are generally considered bullish.","1","Percentage Margin","true","Gap Up > 
+GD","Percentage of stocks making a down gap greater than specified margin. A down gap forms when a security opens below the previous period's low, remains below the previous low for the entire period and closes below it. Down gaps can form on daily, weekly or monthly charts and are generally considered bearish.","1","Percentage Margin","true","Gap Down > 
+ARSI","Stocks Above Their [x]-day RSI.","1","RSI Period","true","Stocks above RSI of 
+BRSI","Stocks Below Their [x]-day RSI.","1","RSI Period","true","Stocks below RSI of 
+CUSTABOVE","Stocks Above Their Specified Treatment: This indicator returns the number of stocks in a given group that have closing prices that are currently above their specified treatment","0","true","Stocks above its specified treatment
+CUSTBELOW","Stocks Below Their Specified Treatment: This indicator returns the number of stocks in a given group that have closing prices that are currently below their specified treatment","0","true","Stocks below its specified treatment
+MAC","A breadth indicator derived from each day's net advances (the number of advancing issues less the number of declining issues). Similar to MACD, the McClellan Oscillator is a momentum indicator that is applied to the advance/decline statistics. As a momentum indicator, the McClellan Oscillator attempts to anticipate positive and negative changes in the AD statistics for market timing. Buy and sell signals are generated as well as overbought and oversold readings. Traders may also look for positive or negative divergences to time their trades.","0","true","McClellan
+ADV","Percentage of Advancing Stocks Per Day","0","true","Advancing Stocks
+DEC","Percentage of Declining Stocks Per Day","0","true","Declining Stocks
+TRIN","A momentum indicator showing the percent rate-of-change of a triple exponentially smoothed moving average. Like other oscillators, TRIX oscillates around a zero line. Its triple exponential smoothing makes it an excellent filter of market noise and it functions well as a leading indicator of market trends.","0","true","TRade INdicator
+RANA","Ratio-Adjusted Net Advances","0","true","Ratio-Adjusted Net Advances
+AAII_BULL","The AAII Investor Sentiment Survey measures on a weekly basis the percentage of individual investors who are bullish, bearish, and neutral on the stock market for the next six months","0","false","AAII Investor Sentiment (Bullish)
+AAII_BEAR","The AAII Investor Sentiment Survey measures on a weekly basis the percentage of individual investors who are bullish, bearish, and neutral on the stock market for the next six months","0","false","AAII Investor Sentiment (Bearish)
+AAII_NEU","The AAII Investor Sentiment Survey measures on a weekly basis the percentage of individual investors who are bullish, bearish, and neutral on the stock market for the next six months","0","false","AAII Investor Sentiment (neutral)
+VPC","Volume Put/Call Ratio","0","false","Volume Put/Call ratio
+IPC","Index Put/Call Ratio","0","false","Index Put/Call ratio
+EPC","Equity Put/Call Ratio","0","false","Equity Put/Call ratio
+VXO","OEX Implied Volatility","0","false","CBOE OEX Implied Volatility
+VIX","VOLATILITY S&P 500","0","false","VOLATILITY S&P 500
+VXN","CBOE NASDAQ 100 Volatility","0","false","NASDAQ 100 Volatility
+QQV","QQQ Volatility Index","0","false","QQQ Volatility Index

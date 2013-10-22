@@ -1,0 +1,1 @@
+is_dow","Determines if the current day is the specified day of the week","1","Day of week

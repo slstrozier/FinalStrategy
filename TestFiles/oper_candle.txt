@@ -1,0 +1,4 @@
+IS_DOJI","Doji forms when a security's open and close are virtually equal. The length of the upper and lower shadows can vary, and the resulting candlestick looks like, either, a cross, inverted cross, or plus sign. Doji convey a sense of indecision or tug-of-war between buyers and sellers. Prices move above and below the opening level during the session, but close at or near the opening level.","0
+IS_SHOOTING_STAR","A single day pattern that can appear in an uptrend. It opens higher, trades much higher, then closes near its open. It looks just like the Inverted Hammer except that it is bearish.","0
+IS_ABANDONED_BABY","A rare reversal pattern characterized by a gap followed by a Doji, which is then followed by another gap in the opposite direction. The shadows on the Doji must completely gap below or above the shadows of the first and third day.","0
+IS_CUSTOM_CANDLE","Custom candlestick pattern. Please, specify the parameters of a candlestick","0

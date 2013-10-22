@@ -1,0 +1,7 @@
+Loss exceeded","LOSS_EXCEEDS","Determines if the loss exceeds some percentage value","1","Value","30
+
+Profit exceeded","PROFIT_EXCEEDS","Determines if the profit exceeds some percentage value","1","Value","10
+
+Peak profit exceeded","PEAK_PROFIT_GREATER","Determines if the profit peak exceeds some percentage value","1","Value","20
+
+Profit less than","PROFIT_LESS_THAN","Determines if the profit is less than some percentage value","1","Value","5

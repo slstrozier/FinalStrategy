@@ -1,0 +1,33 @@
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+
+
+Determine if the parameter stayed above [1] value, for [2] days in a row, up until [3] days back from today","stayed_above","3:1","Above value","For how many days","Up until how many days back","false things","another false thing","yet another false thing
+

@@ -1,0 +1,7 @@
+Box4","scan3","scan3","<Filter><Condition><CondEntity type="close"></CondEntity><CondOperator>greater</CondOperator><Parameter>100</Parameter></Condition><DB>nasdaq100</DB></Filter>","ScanB","false","false","true","3","MSFT,T,GOOG
+
+Box4","snp100-1Conds","snp100-1Conds","<Filter>  <Condition>    <CondEntity type="tbl"/>    <CondOperator>IS_SHOOTING_STAR</CondOperator>    <Parameter/>  </Condition>  <DB>snp100</DB></Filter>","ScanB","false","false","true","3","MSFT,T,GOOG
+
+Box4","snp100-2Conds","snp100-2Conds","<Filter>  <Condition>    <CondEntity type="tbl"/>    <CondOperator>IS_DOJI</CondOperator>    <Parameter/>  </Condition>  <Condition>    <CondEntity type="volume"/>    <CondOperator>greater_than_avg</CondOperator>    <Parameter>2,10</Parameter>  </Condition>  <DB>snp100</DB></Filter>","ScanB","false","false","true","3","MSFT,T,GOOG
+
+Box4","nasdaq100-1Conds","nasdaq100-1Conds","<Filter>  <Condition>    <CondEntity type="close">RSI-14</CondEntity>    <CondOperator>less</CondOperator>    <Parameter>30</Parameter>  </Condition>  <DB>nasdaq100</DB></Filter>","ScanB","false","false","true","3","MSFT,T,GOOG

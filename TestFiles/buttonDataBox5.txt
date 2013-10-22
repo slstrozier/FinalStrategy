@@ -1,0 +1,3 @@
+Box5","signal1","signal1","<Filter><Condition><CondEntity type="close">MAC()[]{nasdaq100}</CondEntity><CondOperator>less</CondOperator><Parameter>-75</Parameter></Condition></Filter>","SignalB","true","true","false","0","
+,Box5","signal2","signal2","<Filter><Condition><CondEntity type="close">AAII_BEAR()[]{}</CondEntity><CondOperator>greater</CondOperator><Parameter>70</Parameter></Condition><DB>nasdaq100</DB></Filter>","SignalB","true","false","false","0","
+,Box5","signal3","signal3","<Signal><Condition><CondEntity type="close">MSFT()[]{STOCK}</CondEntity><CondOperator>greater</CondOperator><Parameter>100</Parameter></Condition><DB>nasdaq100</DB></Filter>","SignalB","true","true","false","0","
